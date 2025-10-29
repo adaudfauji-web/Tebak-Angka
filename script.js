@@ -10,13 +10,13 @@ cekBtn.addEventListener("click", function() {
   const tebakan = parseInt(input.value);
 
   if (isNaN(tebakan) || tebakan < 1 || tebakan > 10) {
-    pesan.textContent = "Masukkan angka 1 - 10 ya Sayang 😘";
+    pesan.textContent = "Masukkan angka 1 - 10 ya bro😅";
     pesan.style.color = "orange";
     return;
   }
 
   if (tebakan === angkaRahasia) {
-    pesan.textContent = "🎉 Selamat Sayang! Kamu benar 💖";
+    pesan.textContent = "🎉 Selamat bro! Kamu benar 😅 ";
     pesan.style.color = "green";
   } else if (tebakan < angkaRahasia) {
     pesan.textContent = "Terlalu kecil 😅";
